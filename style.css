@@ -1,0 +1,50 @@
+* {
+   margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+html {
+    height: 100vh;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    max-height: 100vh;
+    gap: 5rem;
+    background-color: rgb(4, 22, 34);
+    
+  }
+
+.bg_space {
+    display:inline-flexbox;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100vh;
+    background: url('./photos/photo-1678971185029-7eec9e5433e0.jpeg');
+    background-size: cover;
+    font-family: "Norse Bold";
+}
+
+.form_sect {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    color: rgb(241, 230, 207);
+    gap: 5rem;
+    font-size: 1.5rem;
+   
+}
+
+@font-face {
+    font-family: "Norse Bold";
+    src: url('./fonts/Norse-Bold.otf')
+};
+
