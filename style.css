@@ -15,7 +15,6 @@ body {
     align-items: center;
     flex-direction: row;
     max-height: 100vh;
-    gap: 5rem;
     background-color: rgb(4, 22, 34);
     
   }
@@ -35,12 +34,83 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: left;
     width: 50%;
-    color: rgb(241, 230, 207);
-    gap: 5rem;
-    font-size: 1.5rem;
+    color: rgb(241, 239, 234);
+    gap: 3rem;
+    font-size: 1.3rem;
    
+}
+
+.form_sect> .form_header,p,button {
+    margin-left: 2rem;
+}
+
+.create {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    
+}
+
+
+button {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    border-radius: 0.5rem;
+    font-size: 1.1rem;
+    color: rgb(252, 248, 243);
+    background-color: rgb(83, 56, 146);
+    font-weight: bold;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    gap: 2rem;
+    padding: 2rem;
+    border: .5rem;
+    background-color: rgb(4, 24, 39);
+    box-shadow: 0.8rem 0.5rem 0.5rem rgb(36, 65, 99);
+    appearance: none;
+    
+
+}
+
+fieldset {
+     display:flex;
+    border: none;
+    align-items: center;
+    gap: 1rem;
+    
+}
+
+
+label {
+    display:block;
+    border: none;
+    flex-direction: column;
+}
+
+input {
+    width: 25%;
+    border-color: rgb(4, 24, 39);
+    padding-top: 0.5rem;
+    padding-left: 0.1rem;
+    padding-bottom: 0.3rem;
+    border-radius: 0.3rem;
+    background-color: rgb(4, 24, 39);
+    color: rgb(252, 248, 243);
+    
+}
+
+input:focus {
+
 }
 
 @font-face {
