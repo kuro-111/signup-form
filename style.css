@@ -39,6 +39,7 @@ body {
     color: rgb(241, 239, 234);
     gap: 3rem;
     font-size: 1.3rem;
+    font-family:monospace;
    
 }
 
@@ -61,19 +62,17 @@ button {
     padding-right: 1.5rem;
     border-radius: 0.5rem;
     font-size: 1.1rem;
-    color: rgb(252, 248, 243);
-    background-color: rgb(83, 56, 146);
+    color: rgb(37, 6, 77);
+    background-color: rgb(190, 142, 176);
     font-weight: bold;
 
 }
 
 form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: left;
     gap: 2rem;
     padding: 2rem;
+    padding-top: 1rem;
+    margin-top: .1rem;
     border: .5rem;
     background-color: rgb(4, 24, 39);
     box-shadow: 0.8rem 0.5rem 0.5rem rgb(36, 65, 99);
@@ -82,23 +81,35 @@ form {
 
 }
 
+legend {
+    font-weight: bold;
+    margin-top: -3rem;
+    margin-bottom: .9rem;
+    font-size: 1.5rem;
+}
+
 fieldset {
-     display:flex;
+    display: flex;
     border: none;
+    justify-content: flex-start;
+    margin-top: .3rem;
     align-items: center;
-    gap: 1rem;
+    gap: 2rem;
     
 }
 
 
-label {
-    display:block;
-    border: none;
-    flex-direction: column;
+.block {
+    display: block;
+    margin-top: .1rem;
+    margin-right: 5rem;
 }
 
 input {
-    width: 25%;
+    
+    display: flex;
+    margin-top: .7rem;
+    width: 120%;
     border-color: rgb(4, 24, 39);
     padding-top: 0.5rem;
     padding-left: 0.1rem;
@@ -110,7 +121,10 @@ input {
 }
 
 input:focus {
-
+    outline: none;
+    background-color: rgb(198, 196, 199);
+    border: .2rem solid rgb(49, 180, 219); 
+    color: black;
 }
 
 @font-face {
