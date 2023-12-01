@@ -36,10 +36,10 @@ body {
     justify-content: center;
     align-items: left;
     width: 50%;
-    color: rgb(241, 239, 234);
+    color: rgb(221, 215, 198);
     gap: 3rem;
     font-size: 1.3rem;
-    font-family:monospace;
+    font-family:"IBM Plex Mono";
    
 }
 
@@ -127,8 +127,12 @@ input:focus {
     color: black;
 }
 
+
+
 @font-face {
     font-family: "Norse Bold";
     src: url('./fonts/Norse-Bold.otf')
 };
+
+
 
