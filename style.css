@@ -51,7 +51,6 @@ body {
     display: flex;
     justify-content: left;
     align-items: left;
-    
 }
 
 
@@ -65,8 +64,14 @@ button {
     color: rgb(37, 6, 77);
     background-color: rgb(190, 142, 176);
     font-weight: bold;
-
+    
 }
+
+button:active {
+    background-color: rgb(196, 75, 159);
+    color:rgb(235, 220, 243)
+}
+
 
 form {
     gap: 2rem;
@@ -100,9 +105,12 @@ fieldset {
 
 
 .block {
-    display: block;
+    display: flex;
+    flex-direction: column;
     margin-top: .1rem;
     margin-right: 5rem;
+    width: 27%;
+
 }
 
 input {
@@ -125,7 +133,7 @@ input:focus {
     background-color: rgb(198, 196, 199);
     border: .2rem solid rgb(49, 180, 219); 
     color: black;
-}
+} our cursors are touching uwu owow xoxox (>.<) stfu
 
 
 
