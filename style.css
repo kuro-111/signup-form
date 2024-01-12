@@ -44,7 +44,7 @@ body {
 }
 
 .form_sect> .form_header,p,button {
-    margin-left: 2rem;
+    margin-left: 2.4rem;
 }
 
 .create {
@@ -55,13 +55,15 @@ body {
 
 
 button {
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
     border-radius: 0.5rem;
+    margin-left: 2.8rem;
     font-size: 1.1rem;
     color: rgb(37, 6, 77);
+    width: 25%;
     background-color: rgb(190, 142, 176);
     font-weight: bold;
     
@@ -69,14 +71,14 @@ button {
 
 button:active {
     background-color: rgb(196, 75, 159);
-    color:rgb(235, 220, 243)
+    color:rgb(235, 220, 243);
 }
 
 
 form {
     gap: 2rem;
     padding: 2rem;
-    padding-top: 1rem;
+    padding-top: 0rem;
     margin-top: .1rem;
     border: .5rem;
     background-color: rgb(4, 24, 39);
@@ -88,9 +90,11 @@ form {
 
 legend {
     font-weight: bold;
-    margin-top: -3rem;
+    margin-top: 1rem;
     margin-bottom: .9rem;
     font-size: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 fieldset {
@@ -101,6 +105,10 @@ fieldset {
     align-items: center;
     gap: 2rem;
     
+}
+
+.para1,legend,.para2 {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
