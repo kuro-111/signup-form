@@ -141,8 +141,19 @@ input:focus {
     background-color: rgb(198, 196, 199);
     border: .2rem solid rgb(49, 180, 219); 
     color: black;
-} our cursors are touching uwu owow xoxox (>.<) stfu
+} 
 
+
+#user_password,#confirm_password:enabled {
+    outline: none;
+    border: .2rem solid rgb(219, 49, 49); 
+}
+
+ .field3::after {
+    content: "*Passwords do not match";
+    font-size:x-small;
+
+}
 
 
 @font-face {
