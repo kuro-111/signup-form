@@ -15,7 +15,7 @@ body {
     align-items: center;
     flex-direction: row;
     max-height: 100vh;
-    background-color: rgb(4, 22, 34);
+    background-color: rgb(4, 16, 34);
     
   }
 
@@ -25,9 +25,31 @@ body {
     align-items: center;
     width: 50%;
     height: 100vh;
-    background: url('./photos/photo-1678971185029-7eec9e5433e0.jpeg');
+    background: url('./photos/alex-knight-dPSc8w2zn-A-unsplash.jpg');
     background-size: cover;
-    font-family: "Norse Bold";
+}
+
+.logo {
+    display: inline-flexbox;
+}
+
+.refbox {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    margin-top: 47rem;
+}
+
+.reference {
+    font-family: "IBM Plex Mono";
+    font-size: small;
+    font-weight: bolder;
+    color: rgb(221, 215, 198);
+}
+
+.reflink {
+    color:  rgb(221, 215, 198);
 }
 
 .form_sect {
@@ -66,6 +88,7 @@ button {
     width: 25%;
     background-color: rgb(190, 142, 176);
     font-weight: bold;
+    cursor: pointer;
     
 }
 
@@ -76,12 +99,11 @@ button:active {
 
 
 form {
-    gap: 2rem;
     padding: 2rem;
     padding-top: 0rem;
     margin-top: .1rem;
     border: .5rem;
-    background-color: rgb(4, 24, 39);
+    background-color: rgb(5, 16, 37);
     box-shadow: 0.8rem 0.5rem 0.5rem rgb(36, 65, 99);
     appearance: none;
     
@@ -101,14 +123,15 @@ fieldset {
     display: flex;
     border: none;
     justify-content: flex-start;
-    margin-top: .3rem;
+    margin-top: 1rem;
     align-items: center;
-    gap: 2rem;
+    gap: 1rem;
     
 }
 
 .para1,legend,.para2 {
     font-family: Arial, Helvetica, sans-serif;
+    margin-right: 2rem;
 }
 
 
@@ -118,28 +141,35 @@ fieldset {
     margin-top: .1rem;
     margin-right: 5rem;
     width: 27%;
+    gap:.2rem;
 
+}
+
+label {
+    letter-spacing: .1rem;
+    font-size:1rem;
+    margin-bottom: -1rem;
 }
 
 input {
     
     display: flex;
-    margin-top: .7rem;
+    margin-top: .9rem;
     width: 120%;
     border-color: rgb(4, 24, 39);
     padding-top: 0.5rem;
     padding-left: 0.1rem;
     padding-bottom: 0.3rem;
     border-radius: 0.3rem;
-    background-color: rgb(4, 24, 39);
+    background-color: rgb(5, 16, 37);
     color: rgb(252, 248, 243);
     
 }
 
 input:focus {
     outline: none;
-    background-color: rgb(198, 196, 199);
-    border: .2rem solid rgb(49, 180, 219); 
+    background-color: rgb(213, 211, 214);
+    border: .2rem solid rgb(100, 238, 231); 
     color: black;
 } 
 
@@ -149,10 +179,17 @@ input:focus {
     border: .2rem solid rgb(219, 49, 49); 
 }
 
- .field3::after {
+ .error::after {
     content: "*Passwords do not match";
     font-size:x-small;
+    position: absolute;
 
+}
+
+.login {
+    text-decoration: none;
+    color: rgb(196, 75, 159);
+    font-weight: 300;
 }
 
 
